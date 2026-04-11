@@ -1,26 +1,83 @@
 @import "tailwindcss";
 
+/* ===== CSS VARIABLES — THEME SYSTEM ===== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-main: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --transition: 0.3s ease;
 }
 
+[data-theme="dark"] {
+  --bg-primary: #0a0e17;
+  --bg-secondary: #111827;
+  --bg-card: #1e293b;
+  --bg-card-hover: #263348;
+  --bg-input: #1e293b;
+  --border: #2d3a4f;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent: #E62129;
+  --accent-hover: #ff3333;
+  --accent-bg: rgba(230, 33, 41, 0.12);
+  --divider: #E62129;
+  --cta-bg: #E62129;
+  --cta-btn: #000000;
+  --cta-btn-text: #ffffff;
+  --nav-bg: rgba(10, 14, 23, 0.9);
+}
+
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f5f9;
+  --bg-input: #f1f5f9;
+  --border: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --accent: #E62129;
+  --accent-hover: #b91c1c;
+  --accent-bg: #fecaca;
+  --divider: #E62129;
+  --cta-bg: #E62129;
+  --cta-btn: #000000;
+  --cta-btn-text: #ffffff;
+  --nav-bg: rgba(248, 250, 252, 0.9);
+}
+
+/* ===== TAILWIND V4 THEME ===== */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-card: var(--bg-card);
+  --color-bg-card-hover: var(--bg-card-hover);
+  --color-bg-input: var(--bg-input);
+  --color-border: var(--border);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-bg: var(--accent-bg);
+  --color-divider: var(--divider);
+  --color-cta-bg: var(--cta-bg);
+  --color-cta-btn: var(--cta-btn);
+  --color-cta-btn-text: var(--cta-btn-text);
+  --color-nav-bg: var(--nav-bg);
+  --font-sans: var(--font-main);
+  --font-mono: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ===== BASE ===== */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-main);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background var(--transition), color var(--transition);
 }
