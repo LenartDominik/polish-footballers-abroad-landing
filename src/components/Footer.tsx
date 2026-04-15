@@ -49,7 +49,7 @@ export default function Footer() {
           href="/privacy"
           className="text-text-muted no-underline text-[13px] hover:text-accent transition-colors duration-300"
         >
-          Prywatność
+          Polityka prywatności
         </a>
         <a
           href="/terms"
