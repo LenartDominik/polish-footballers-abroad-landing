@@ -81,12 +81,6 @@ export default function Navbar() {
           >
             Demo
           </a>
-          <a
-            href="#lista"
-            className="text-text-secondary no-underline text-sm font-medium hover:text-accent transition-colors duration-300"
-          >
-            Lista oczekujących
-          </a>
         </div>
 
         <button
@@ -110,7 +104,7 @@ export default function Navbar() {
           href="#lista"
           className="bg-accent text-white border-none px-5 py-2 rounded-md text-sm font-semibold no-underline hover:bg-accent-hover transition-colors duration-300"
         >
-          Zaloguj się
+          Zapisz się
         </a>
       </div>
     </nav>
