@@ -38,10 +38,10 @@ export default function Terms() {
 
           <section>
             <h2 className="text-lg font-semibold text-text-primary mb-2">
-              3. Bonus — 7 dni premium
+              3. Bonus — 14 dni premium
             </h2>
             <p>
-              Osoby zapisane na listę oczekującą otrzymają 7 dni darmowego
+              Osoby zapisane na listę oczekującą otrzymają 14 dni darmowego
               dostępu do funkcji premium po premierze aplikacji. Bonus
               przysługuje jednym osobom z pierwszej setki zapisanych.
             </p>
@@ -65,10 +65,10 @@ export default function Terms() {
             <p>
               W sprawach związanych z regulaminem kontaktuj się pod adresem{" "}
               <a
-                href="mailto:kontakt@polishfootballersabroad.pl"
+                href="mailto:polishfootballersabroad@gmail.com"
                 className="text-accent hover:underline"
               >
-                kontakt@polishfootballersabroad.pl
+                polishfootballersabroad@gmail.com
               </a>
             </p>
           </section>

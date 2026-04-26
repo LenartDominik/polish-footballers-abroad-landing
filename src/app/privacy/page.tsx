@@ -22,10 +22,10 @@ export default function Privacy() {
               Administratorem Twoich danych osobowych jest Polish Footballers
               Abroad. Kontakt:{" "}
               <a
-                href="mailto:kontakt@polishfootballersabroad.pl"
+                href="mailto:polishfootballersabroad@gmail.com"
                 className="text-accent hover:underline"
               >
-                kontakt@polishfootballersabroad.pl
+                polishfootballersabroad@gmail.com
               </a>
             </p>
           </section>
@@ -78,12 +78,12 @@ export default function Privacy() {
             <p>
               Masz prawo dostępu do swoich danych, ich usunięcia, sprostowania
               oraz wycofania zgody w dowolnym momencie. Aby skorzystać z tych
-              praw, skontaktuj się z nami pod adresem{" "}
+              praw, skontaktuj się ze mną pod adresem{" "}
               <a
-                href="mailto:kontakt@polishfootballersabroad.pl"
+                href="mailto:polishfootballersabroad@gmail.com"
                 className="text-accent hover:underline"
               >
-                kontakt@polishfootballersabroad.pl
+                polishfootballersabroad@gmail.com
               </a>
             </p>
           </section>
@@ -93,9 +93,8 @@ export default function Privacy() {
               7. Zabezpieczenia
             </h2>
             <p>
-              Dane przechowujemy w bazie Supabase (AWS), która wykorzystuje
-              szyfrowanie w spoczynku i w tranzycie. Dostęp do danych jest
-              ograniczony poprzez Row Level Security (RLS).
+              Dane przechowujemy w bezpiecznej bazie Supabase (AWS) — są
+              szyfrowane i chronione przez cały czas.
             </p>
           </section>
         </div>
