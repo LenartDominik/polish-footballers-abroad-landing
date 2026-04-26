@@ -104,7 +104,7 @@ export default function CtaSection() {
       )}
 
       <p className="text-sm text-white/80 mt-2">
-        🎁 7 dni premium za darmo po premierze
+        🎁 14 dni premium za darmo po premierze
       </p>
     </section>
   );
