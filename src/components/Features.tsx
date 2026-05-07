@@ -17,7 +17,7 @@ export default function Features() {
         <div className="bg-bg-card border border-border rounded-xl p-7 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
           <div className="text-[28px] mb-3">📱</div>
           <h3 className="text-base font-semibold mb-2.5 text-text-primary">
-            Jeden czytelny dashboard
+            Jeden czytelny panel
           </h3>
           <p className="text-sm text-text-secondary leading-relaxed transition-[color] duration-300">
             Zapomnij o dziesiątkach otwartych kart w przeglądarce. Wszystkie
