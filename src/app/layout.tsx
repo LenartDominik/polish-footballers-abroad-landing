@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 const siteUrl = "https://polish-footballers-abroad-landing.vercel.app";
 
 export const metadata: Metadata = {
-  title: "Polish Footballers Abroad — Tracker Stats",
+  title: "Polish Footballers Abroad — Śledź statystyki piłkarzy za granicą",
   description:
     "Śledź statystyki polskich piłkarzy grających za granicą. Sprawdzaj minuty, bramki, asysty i formę — wszystkie dane w jednym miejscu.",
   icons: {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Polish Footballers Abroad — Tracker Stats",
+    title: "Polish Footballers Abroad — Śledź statystyki piłkarzy za granicą",
     description:
       "Śledź statystyki polskich piłkarzy grających za granicą. Sprawdzaj minuty, bramki, asysty i formę — wszystkie dane w jednym miejscu.",
     url: siteUrl,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Polish Footballers Abroad — Tracker Stats",
+    title: "Polish Footballers Abroad — Śledź statystyki piłkarzy za granicą",
     description:
       "Śledź statystyki polskich piłkarzy grających za granicą. Sprawdzaj minuty, bramki, asysty i formę — wszystkie dane w jednym miejscu.",
     images: ["/images/og-image.png"],
