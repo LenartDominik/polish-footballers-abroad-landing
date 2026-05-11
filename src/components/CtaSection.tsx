@@ -60,6 +60,8 @@ export default function CtaSection() {
           type="email"
           placeholder="Podaj swój adres e-mail"
           required
+          aria-label="Adres e-mail"
+          aria-describedby={status !== "idle" ? "cta-status" : undefined}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           disabled={status === "loading"}
@@ -88,17 +90,17 @@ export default function CtaSection() {
       </label>
 
       {status === "success" && (
-        <p className="text-white text-sm">
+        <p id="cta-status" className="text-white text-sm" role="status">
           ✓ Gotowe! Twoje miejsce na liście jest zarezerwowane.
         </p>
       )}
       {status === "duplicate" && (
-        <p className="text-white text-sm">
+        <p id="cta-status" className="text-white text-sm" role="status">
           Ten email jest już na liście.
         </p>
       )}
       {status === "error" && (
-        <p className="text-white text-sm">
+        <p id="cta-status" className="text-white text-sm" role="status">
           Coś poszło nie tak. Spróbuj ponownie.
         </p>
       )}

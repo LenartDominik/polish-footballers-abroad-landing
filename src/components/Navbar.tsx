@@ -50,7 +50,8 @@ export default function Navbar() {
         <button
           onClick={toggleTheme}
           className="flex items-center gap-2 bg-bg-card border border-border rounded-full p-1 cursor-pointer transition-[background,border-color] duration-300"
-          title="Zmień theme"
+          title="Zmień motyw"
+          aria-label="Przełącz między ciemnym a jasnym motywem"
         >
           <span
             className={`w-7 h-7 rounded-full flex items-center justify-center text-sm transition-[background] duration-200 ${theme === "dark" ? "bg-accent" : "hover:bg-bg-card-hover"}`}

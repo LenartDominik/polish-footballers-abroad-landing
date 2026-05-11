@@ -45,7 +45,7 @@ export default function Demo() {
               alt={s.alt}
               width={400}
               height={200}
-              className="w-full h-[200px] object-cover bg-bg-secondary"
+              className="w-full h-auto object-cover bg-bg-secondary"
             />
             <div className="py-3 px-4 text-[13px] text-text-secondary border-t border-border transition-[color,border-color] duration-300">
               {s.label}
