@@ -48,7 +48,7 @@ export default function CtaSection() {
       <h2 className="text-[32px] font-bold mb-3 text-white">
         Zapisz się na listę oczekujących
       </h2>
-      <p className="text-white/85 text-base max-w-[500px] mx-auto mb-8 leading-relaxed">
+      <p className="text-white text-base max-w-[500px] mx-auto mb-8 leading-relaxed">
         Dołącz teraz i otrzymaj pierwszeństwo oraz specjalne oferty po premierze
       </p>
 
@@ -76,7 +76,7 @@ export default function CtaSection() {
         </button>
       </form>
 
-      <label className="flex items-center justify-center gap-2 text-sm text-white/80 mb-4 cursor-pointer">
+      <label className="flex items-center justify-center gap-2 text-sm text-white mb-4 cursor-pointer">
         <input
           type="checkbox"
           checked={consent}
@@ -105,7 +105,7 @@ export default function CtaSection() {
         </p>
       )}
 
-      <p className="text-sm text-white/80 mt-2">
+      <p className="text-sm text-white mt-2">
         🎁 14 dni premium za darmo po premierze
       </p>
     </section>
