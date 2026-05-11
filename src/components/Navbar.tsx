@@ -26,6 +26,7 @@ export default function Navbar() {
             alt="Polish Footballers Abroad logo"
             width={32}
             height={32}
+            priority
             className="w-8 h-8 rounded-lg bg-[#E62129] p-0.5"
           />
           Polish Footballers Abroad
