@@ -8,11 +8,13 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 const inter = Inter({
   variable: "--font-main",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-mono",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const siteUrl = "https://polish-footballers-abroad-landing.vercel.app";
@@ -63,6 +65,11 @@ export default function RootLayout({
     <html lang="pl" data-theme="dark" suppressHydrationWarning>
       <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>
         <ThemeProvider>{children}</ThemeProvider>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}})()`,
+          }}
+        />
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:bg-accent focus:text-white focus:px-4 focus:py-2 focus:rounded-md">
           Przejdź do treści
         </a>
