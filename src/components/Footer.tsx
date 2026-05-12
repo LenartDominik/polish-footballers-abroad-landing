@@ -6,11 +6,11 @@ export default function Footer() {
       <div className="flex flex-col">
         <div className="flex items-center gap-2.5 text-base font-bold text-text-primary transition-[color] duration-300">
           <Image
-            src="/images/logo-outline.png"
+            src="/images/logo-nowe.png"
             alt="Polish Footballers Abroad logo"
             width={32}
             height={32}
-            className="w-8 h-8 rounded-lg bg-[#E62129] p-0.5"
+            className="w-8 h-8 rounded-lg"
           />
           Polish Footballers Abroad
         </div>

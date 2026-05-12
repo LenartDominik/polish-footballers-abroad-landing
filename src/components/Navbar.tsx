@@ -22,12 +22,12 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-nav-bg backdrop-blur-[12px] border-b border-border px-4 md:px-8 py-3 flex justify-between items-center transition-[background,border-color] duration-300">
       <a href="#" className="flex items-center gap-2.5 no-underline font-bold text-base text-text-primary transition-colors duration-300">
           <Image
-            src="/images/logo-outline.png"
+            src="/images/logo-nowe.png"
             alt="Polish Footballers Abroad logo"
             width={32}
             height={32}
             priority
-            className="w-8 h-8 rounded-lg bg-[#E62129] p-0.5"
+            className="w-8 h-8 rounded-lg"
           />
           Polish Footballers Abroad
         </a>
