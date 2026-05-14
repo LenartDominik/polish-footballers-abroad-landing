@@ -46,10 +46,10 @@ export default function CtaSection() {
       className="py-20 px-6 text-center bg-cta-bg relative"
     >
       <h2 className="text-[32px] font-bold mb-3 text-white">
-        Zapisz się na listę oczekujących
+        To dla Ciebie, jeśli śledzisz polskich piłkarzy
       </h2>
       <p className="text-white text-base max-w-[500px] mx-auto mb-8 leading-relaxed">
-        Dołącz teraz i otrzymaj pierwszeństwo oraz specjalne oferty po premierze
+        Zostaw email — powiadomię Cię, gdy ruszymy. Pierwsze 100 osób dostaje 14 dni premium za darmo.
       </p>
 
       <form
@@ -105,8 +105,8 @@ export default function CtaSection() {
         </p>
       )}
 
-      <p className="text-sm text-white mt-2">
-        🎁 14 dni premium za darmo po premierze
+      <p className="text-sm text-white/70 mt-2">
+        Tylko email. Żadnego spamu. Wypisz się jednym kliknięciem.
       </p>
     </section>
   );

@@ -19,16 +19,16 @@ export default function Hero() {
 
       <div className="flex gap-3 mb-12 max-md:flex-col max-md:items-center">
         <a
-          href="#lista"
+          href="#features"
           className="bg-cta-bg text-white border-none px-8 py-3.5 rounded-lg text-[15px] font-semibold no-underline hover:-translate-y-px hover:shadow-[0_8px_24px_rgba(230,33,41,0.3)] transition-[transform,box-shadow] duration-200"
         >
-          Dołącz teraz - pierwsze 100 miejsc
+          Zobacz, jak to działa
         </a>
         <a
-          href="#features"
+          href="#lista"
           className="bg-transparent text-text-primary border border-border px-7 py-3.5 rounded-lg text-[15px] font-medium no-underline hover:border-accent hover:text-accent transition-[border-color,color] duration-300"
         >
-          Zobacz, jak to działa
+          Zarezerwuj miejsce
         </a>
       </div>
 

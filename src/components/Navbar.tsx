@@ -70,7 +70,7 @@ export default function Navbar() {
           href="#lista"
           className="bg-accent text-white border-none px-4 py-2 rounded-md text-sm font-semibold no-underline hover:bg-accent-hover transition-colors duration-300 whitespace-nowrap"
         >
-          Zapisz się
+          Dołącz
         </a>
       </div>
     </nav>
