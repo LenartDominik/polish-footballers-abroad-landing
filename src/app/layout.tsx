@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const siteUrl = "https://polish-footballers-abroad-landing.vercel.app";
+const siteUrl = "https://polish-footballers-abroad-tracker-l.vercel.app";
 
 export const metadata: Metadata = {
   title: "Polish Footballers Abroad — Statystyki piłkarzy za granicą",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Polish Footballers Abroad",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "/images/og-image-v2.png",
         width: 1200,
         height: 630,
         alt: "Polish Footballers Abroad — Tracker Stats",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "Polish Footballers Abroad — Statystyki piłkarzy za granicą",
     description:
       "Śledź statystyki polskich piłkarzy grających za granicą. Sprawdzaj minuty, bramki, asysty i formę — wszystkie dane w jednym miejscu.",
-    images: ["/images/og-image.png"],
+    images: ["/images/og-image-v2.png"],
   },
 };
 
