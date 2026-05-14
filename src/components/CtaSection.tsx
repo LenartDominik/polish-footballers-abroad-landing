@@ -105,7 +105,7 @@ export default function CtaSection() {
         </p>
       )}
 
-      <p className="text-sm text-white/70 mt-2">
+      <p className="text-sm text-white mt-2 font-light">
         Tylko email. Żadnego spamu. Wypisz się jednym kliknięciem.
       </p>
     </section>
