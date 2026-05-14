@@ -13,7 +13,7 @@ export default function Hero() {
 
       <p className="text-base text-text-secondary max-w-[600px] mx-auto mt-4 mb-8 leading-relaxed transition-[color] duration-300">
         Wszystkie najważniejsze informacje dostajesz w jednym miejscu. W kilka
-        sekund sprawdzisz minuty, formę, występy, bramki i asysty polskich
+        sekund porównasz oraz sprawdzisz minuty, formę, występy, bramki i asysty polskich
         piłkarzy grających za granicą — bez chaosu i bez straty czasu.
       </p>
 
