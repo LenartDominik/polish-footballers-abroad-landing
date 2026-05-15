@@ -49,7 +49,7 @@ export default function CtaSection() {
         To dla Ciebie, jeśli śledzisz polskich piłkarzy
       </h2>
       <p className="text-white text-base max-w-[500px] mx-auto mb-8 leading-relaxed">
-        Zostaw email — powiadomię Cię, gdy ruszymy. Pierwsze 100 osób dostaje 14 dni premium za darmo.
+        Zostaw email — powiadomię Cię, gdy ruszymy. Zapisani dostają 14 dni premium za darmo.
       </p>
 
       <form

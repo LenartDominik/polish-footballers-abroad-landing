@@ -81,3 +81,20 @@ body {
   color: var(--text-primary);
   transition: background var(--transition), color var(--transition);
 }
+
+/* ===== LIGHTBOX ===== */
+@keyframes lightbox-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes lightbox-scale {
+  from { transform: scale(0.95); }
+  to { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lightbox-animate {
+    animation: none !important;
+  }
+}

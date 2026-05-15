@@ -19,10 +19,10 @@ export default function Hero() {
 
       <div className="flex gap-3 mb-12 max-md:flex-col max-md:items-center">
         <a
-          href="#features"
+          href="#demo"
           className="bg-cta-bg text-white border-none px-8 py-3.5 rounded-lg text-[15px] font-semibold no-underline hover:-translate-y-px hover:shadow-[0_8px_24px_rgba(230,33,41,0.3)] transition-[transform,box-shadow] duration-200"
         >
-          Zobacz, jak to działa
+          Zobacz demo
         </a>
         <a
           href="#lista"

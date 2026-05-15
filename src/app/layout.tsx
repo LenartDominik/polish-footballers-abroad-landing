@@ -20,6 +20,7 @@ const jetbrainsMono = JetBrains_Mono({
 const siteUrl = "https://polish-footballers-abroad-tracker-l.vercel.app";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Polish Footballers Abroad — Statystyki piłkarzy za granicą",
   description:
     "Śledź statystyki polskich piłkarzy grających za granicą. Sprawdzaj minuty, bramki, asysty i formę — wszystkie dane w jednym miejscu.",
@@ -75,6 +76,65 @@ export default function RootLayout({
         </a>
         <Analytics />
         <SpeedInsights />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "Czy to jest płatne?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Na start wszystko za darmo. Osoby zapisane na listę otrzymają 14 dni pełnego dostępu premium — bez żadnych opłat. Po tym okresie część funkcji pozostanie darmowa, a część będzie wymagała subskrypcji premium.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Co będzie darmowe, a co premium?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Wyszukiwarka i statystyki gracza pozostaną darmowe. W planach premium: porównywarka graczy, średnie pozycje na boisku i mecze na żywo. Model premium wprowadzimy później — zapisani na listę dostaną najwięcej.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Skąd bierzecie dane?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Dane pochodzą z publicznie dostępnych źródeł statystycznych i są aktualizowane na bieżąco.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Jakie ligi są objęte?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Śledzimy polskich piłkarzy we wszystkich głównych ligach europejskich — Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal i innych. Zasięg zależy od tego, gdzie akurat grają Polacy.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Czy mogę się wypisać z listy?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Tak, jednym kliknięciem w emailu potwierdzającym.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Czy jest wersja mobilna?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Tak, aplikacja działa w przeglądarce na telefonie, tablecie i komputerze — bez instalacji.",
+                  },
+                },
+              ],
+            }),
+          }}
+        />
       </body>
     </html>
   );

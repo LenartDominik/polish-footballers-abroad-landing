@@ -35,8 +35,9 @@ export default function Privacy() {
               2. Zbierane dane
             </h2>
             <p>
-              W ramach listy oczekujących zbieramy wyłącznie Twój adres e-mail.
-              Nie zbieramy żadnych innych danych osobowych.
+              W ramach listy oczekujących zbieramy Twój adres e-mail.
+              Dodatkowo zbieramy anonimowe dane analityczne (odwiedziny stron,
+              informacje o urządzeniu i przeglądarce) za pomocą Vercel Analytics.
             </p>
           </section>
 
@@ -45,8 +46,10 @@ export default function Privacy() {
               3. Cel przetwarzania
             </h2>
             <p>
-              Twój adres e-mail jest przetwarzany wyłącznie w celu powiadomienia
-              Cię o premierze aplikacji Polish Footballers Abroad Tracker Stats.
+              Twój adres e-mail jest przetwarzany w celu informowania o
+              nowościach i aktualizacjach serwisu Polish Footballers Abroad.
+              Dane analityczne służą do monitorowania wydajności i poprawy
+              serwisu.
             </p>
           </section>
 
@@ -57,28 +60,92 @@ export default function Privacy() {
             <p>
               Przetwarzanie odbywa się na podstawie Art. 6 ust. 1 lit. a RODO —
               Twojej wyraźnej zgody wyrażonej poprzez zapisanie się na listę
-              oczekujących.
+              oczekujących. Dane analityczne są przetwarzane na podstawie
+              uzasadnionego interesu administratora (Art. 6 ust. 1 lit. f RODO).
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-semibold text-text-primary mb-2">
-              5. Czas przechowywania
+              5. Podmioty przetwarzające dane
             </h2>
             <p>
-              Twój adres e-mail będzie przechowywany do 12 miesięcy po premierze
-              aplikacji. Po tym czasie dane zostaną trwale usunięte.
+              Twoje dane mogą być udostępniane następującym podmiotom:
+            </p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              <li>
+                <strong>Supabase</strong> — przechowywanie adresu e-mail w bazie
+                danych (hosting: AWS)
+              </li>
+              <li>
+                <strong>MailerLite</strong> — wysyłka emaili powitalnych i
+                aktualizacji o serwisie
+              </li>
+              <li>
+                <strong>Vercel</strong> — hosting serwisu oraz anonimowa
+                analityka (Vercel Analytics, Speed Insights)
+              </li>
+            </ul>
+            <p className="mt-2">
+              Nie sprzedajemy ani nie przekazujemy Twoich danych innym podmiotom.
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-semibold text-text-primary mb-2">
-              6. Twoje prawa
+              6. Email
+            </h2>
+            <p>
+              Po zapisie na listę otrzymasz email powitalny. Możesz zrezygnować z
+              otrzymywania kolejnych emaili w dowolnym momencie, klikając link
+              wypisu w treści wiadomości.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-2">
+              7. Analityka
+            </h2>
+            <p>
+              Korzystamy z Vercel Analytics i Vercel Speed Insights do
+              zbierania anonimowych danych o ruchu na stronie — m.in. liczba
+              odwiedzin, typ przeglądarki i urządzenia, przybliżona lokalizacja
+              na podstawie adresu IP. Dane te nie pozwalają na identyfikację
+              konkretnej osoby.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-2">
+              8. Cookies i localStorage
+            </h2>
+            <p>
+              Serwis wykorzystuje localStorage do zapisania preferencji motywu
+              (ciemny/jasny). Vercel Analytics może używać cookies do pomiaru
+              ruchu. Możesz wyłączyć cookies w ustawieniach przeglądarki, ale
+              może to wpłynąć na działanie niektórych funkcji.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-2">
+              9. Czas przechowywania
+            </h2>
+            <p>
+              Twój adres e-mail będzie przechowywany do 12 miesięcy od momentu
+              zapisu. Po tym czasie dane zostaną trwale usunięte, chyba że
+              wyraźnie wyrazisz zgodę na dalsze przetwarzanie.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-2">
+              10. Twoje prawa
             </h2>
             <p>
               Masz prawo dostępu do swoich danych, ich usunięcia, sprostowania
               oraz wycofania zgody w dowolnym momencie. Aby skorzystać z tych
-              praw, skontaktuj się ze mną pod adresem{" "}
+              praw, skontaktuj się pod adresem{" "}
               <a
                 href="mailto:polishfootballersabroad@gmail.com"
                 className="text-accent hover:underline"
@@ -90,11 +157,33 @@ export default function Privacy() {
 
           <section>
             <h2 className="text-lg font-semibold text-text-primary mb-2">
-              7. Zabezpieczenia
+              11. Zabezpieczenia
             </h2>
             <p>
               Dane przechowujemy w bezpiecznej bazie Supabase (AWS) — są
-              szyfrowane i chronione przez cały czas.
+              szyfrowane w tranzycie i przechowywaniu oraz chronione przez cały
+              czas.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-2">
+              12. Prywatność dzieci
+            </h2>
+            <p>
+              Serwis nie jest przeznaczony dla osób poniżej 16 lat. Nie
+              zbieramy świadomie danych osobowych od dzieci.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold text-text-primary mb-2">
+              13. Zmiany polityki
+            </h2>
+            <p>
+              Możemy aktualizować tę politykę prywatności. O zmianach
+              poinformujemy na stronie. Dalsze korzystanie z serwisu po
+              wprowadzeniu zmian oznacza akceptację zaktualizowanej polityki.
             </p>
           </section>
         </div>
