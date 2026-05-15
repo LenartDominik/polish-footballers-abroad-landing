@@ -46,9 +46,9 @@ export default function Features() {
         </div>
       </div>
 
-      {/* Feature cards — 4 narrower */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-[900px] mx-auto mt-12">
-        <div className="bg-bg-card border border-border rounded-xl py-7 px-5 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
+      {/* Feature cards — 5 narrower */}
+      <div className="flex flex-wrap justify-center gap-5 max-w-[900px] mx-auto mt-12">
+        <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] bg-bg-card border border-border rounded-xl py-7 px-5 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
           <div className="w-14 h-14 rounded-xl bg-bg-primary border border-border flex items-center justify-center mx-auto mb-4 text-[26px] transition-[background-color,border-color] duration-300">
             🔍
           </div>
@@ -57,7 +57,7 @@ export default function Features() {
             Znajdź polskiego piłkarza po nazwisku lub klubie
           </p>
         </div>
-        <div className="bg-bg-card border border-border rounded-xl py-7 px-5 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
+        <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] bg-bg-card border border-border rounded-xl py-7 px-5 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
           <div className="w-14 h-14 rounded-xl bg-bg-primary border border-border flex items-center justify-center mx-auto mb-4 text-[26px] transition-[background-color,border-color] duration-300">
             📊
           </div>
@@ -67,7 +67,7 @@ export default function Features() {
             rozgrywki europejskie
           </p>
         </div>
-        <div className="bg-bg-card border border-border rounded-xl py-7 px-5 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
+        <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] bg-bg-card border border-border rounded-xl py-7 px-5 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
           <div className="w-14 h-14 rounded-xl bg-bg-primary border border-border flex items-center justify-center mx-auto mb-4 text-[26px] transition-[background-color,border-color] duration-300">
             ⚖️
           </div>
@@ -76,13 +76,22 @@ export default function Features() {
             Porównaj dwóch graczy z pola albo dwóch bramkarzy
           </p>
         </div>
-        <div className="bg-bg-card border border-border rounded-xl py-7 px-5 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
+        <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] bg-bg-card border border-border rounded-xl py-7 px-5 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
           <div className="w-14 h-14 rounded-xl bg-bg-primary border border-border flex items-center justify-center mx-auto mb-4 text-[26px] transition-[background-color,border-color] duration-300">
             📍
           </div>
           <h3 className="text-[15px] font-semibold mb-2">Średnie pozycje</h3>
           <p className="text-[13px] text-text-secondary leading-relaxed transition-[color] duration-300">
             Zobacz, gdzie na boisku średnio gra zawodnik w ciągu 90 minut
+          </p>
+        </div>
+        <div className="w-full sm:w-[calc(50%-10px)] lg:w-[calc(33.333%-14px)] bg-bg-card border border-border rounded-xl py-7 px-5 text-center hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.2)] transition-[transform,box-shadow,background-color,border-color] duration-200">
+          <div className="w-14 h-14 rounded-xl bg-bg-primary border border-border flex items-center justify-center mx-auto mb-4 text-[26px] transition-[background-color,border-color] duration-300">
+            🔴
+          </div>
+          <h3 className="text-[15px] font-semibold mb-2">Mecze na żywo</h3>
+          <p className="text-[13px] text-text-secondary leading-relaxed transition-[color] duration-300">
+            Śledź polskich piłkarzy minuta po minucie — bramki, asysty i kluczowe zdarzenia
           </p>
         </div>
       </div>
