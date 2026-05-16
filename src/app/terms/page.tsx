@@ -163,6 +163,10 @@ export default function Terms() {
               </a>
             </p>
           </section>
+
+          <p className="mt-10 text-sm text-text-muted">
+            © 2026 Polish Footballers Abroad. Wszelkie prawa zastrzeżone.
+          </p>
         </div>
       </main>
       <Footer />

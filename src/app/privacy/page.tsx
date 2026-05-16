@@ -186,6 +186,10 @@ export default function Privacy() {
               wprowadzeniu zmian oznacza akceptację zaktualizowanej polityki.
             </p>
           </section>
+
+          <p className="mt-10 text-sm text-text-muted">
+            © 2026 Polish Footballers Abroad. Wszelkie prawa zastrzeżone.
+          </p>
         </div>
       </main>
       <Footer />
