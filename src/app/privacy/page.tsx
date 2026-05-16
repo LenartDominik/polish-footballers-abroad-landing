@@ -78,7 +78,7 @@ export default function Privacy() {
                 danych (hosting: AWS)
               </li>
               <li>
-                <strong>MailerLite</strong> — wysyłka emaili powitalnych i
+                <strong>MailerLite</strong> — wysyłka e-maili powitalnych i
                 aktualizacji o serwisie
               </li>
               <li>
@@ -93,11 +93,11 @@ export default function Privacy() {
 
           <section>
             <h2 className="text-lg font-semibold text-text-primary mb-2">
-              6. Email
+              6. E-mail
             </h2>
             <p>
-              Po zapisie na listę otrzymasz email powitalny. Możesz zrezygnować z
-              otrzymywania kolejnych emaili w dowolnym momencie, klikając link
+              Po zapisie na listę otrzymasz e-mail powitalny. Możesz zrezygnować z
+              otrzymywania kolejnych e-maili w dowolnym momencie, klikając link
               wypisu w treści wiadomości.
             </p>
           </section>

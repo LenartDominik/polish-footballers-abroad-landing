@@ -41,7 +41,7 @@ export default function Terms() {
               Zapisanie się na listę oczekujących nie jest wiążące i nie
               stanowi zobowiązania do zakupu. Służy do informowania o
               nowościach i aktualizacjach serwisu. Zapisując się, wyrażasz
-              zgodę na otrzymywanie emaili dotyczących serwisu.
+              zgodę na otrzymywanie e-maili dotyczących serwisu.
             </p>
           </section>
 
