@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "Co będzie darmowe, a co premium?",
     answer:
-      "Wyszukiwarka i statystyki gracza pozostaną darmowe. W planach premium: porównywarka graczy, średnie pozycje na boisku i mecze na żywo. Model premium wprowadzimy później — zapisani na listę dostaną najwięcej.",
+      "Wyszukiwarka i statystyki gracza pozostaną darmowe. W planie premium znajdą się: porównywarka graczy, średnie pozycje na boisku i mecze na żywo. Model subskrypcji premium wprowadzimy później — osoby zapisane na listę otrzymają najlepsze warunki.",
   },
   {
     question: "Skąd bierzecie dane?",
