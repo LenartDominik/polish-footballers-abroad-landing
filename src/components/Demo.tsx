@@ -172,7 +172,7 @@ export default function Demo() {
               alt={s.alt}
               width={400}
               height={200}
-              className="w-full aspect-[2/1] object-cover bg-bg-secondary"
+              className="w-full h-auto aspect-[2/1] object-cover bg-bg-secondary"
             />
             <div className="py-3 px-4 text-[13px] text-text-secondary border-t border-border transition-[color,border-color] duration-300">
               {s.label}
@@ -196,7 +196,7 @@ export default function Demo() {
                 alt={screenshots[4].alt}
                 width={600}
                 height={300}
-                className="w-full aspect-[2/1] object-cover bg-bg-secondary"
+                className="w-full h-auto aspect-[2/1] object-cover bg-bg-secondary"
               />
             </div>
             <div className="md:w-1/2 flex flex-col justify-center py-6 px-6 md:px-8">
