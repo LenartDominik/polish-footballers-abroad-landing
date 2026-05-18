@@ -57,6 +57,8 @@ export default function CtaSection() {
         className="flex gap-2.5 justify-center max-w-[440px] mx-auto mb-5 max-md:flex-col"
       >
         <input
+          id="cta-email"
+          name="email"
           type="email"
           placeholder="Podaj swój adres e-mail"
           required
@@ -76,8 +78,10 @@ export default function CtaSection() {
         </button>
       </form>
 
-      <label className="flex items-center justify-center gap-2 text-sm text-white mb-4 cursor-pointer">
+      <label htmlFor="cta-consent" className="flex items-center justify-center gap-2 text-sm text-white mb-4 cursor-pointer">
         <input
+          id="cta-consent"
+          name="consent"
           type="checkbox"
           checked={consent}
           onChange={(e) => setConsent(e.target.checked)}
