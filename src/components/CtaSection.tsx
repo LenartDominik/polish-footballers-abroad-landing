@@ -60,6 +60,7 @@ export default function CtaSection() {
           id="cta-email"
           name="email"
           type="email"
+          autoComplete="email"
           placeholder="Podaj swój adres e-mail"
           required
           aria-label="Adres e-mail"
