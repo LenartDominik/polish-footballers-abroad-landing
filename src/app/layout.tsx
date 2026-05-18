@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Polish Footballers Abroad — Statystyki piłkarzy za granicą",
   description:
-    "Śledź statystyki polskich piłkarzy grających za granicą. Sprawdzaj minuty, bramki, asysty i formę — wszystkie dane w jednym miejscu.",
+    "Koniec z szukaniem. Śledź statystyki polskich piłkarzy za granicą — minuty, bramki, asysty i formę w jednym miejscu.",
   icons: {
     icon: [
       { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Polish Footballers Abroad — Statystyki piłkarzy za granicą",
     description:
-      "Śledź statystyki polskich piłkarzy grających za granicą. Sprawdzaj minuty, bramki, asysty i formę — wszystkie dane w jednym miejscu.",
+      "Koniec z szukaniem. Śledź statystyki polskich piłkarzy za granicą — minuty, bramki, asysty i formę w jednym miejscu.",
     url: siteUrl,
     siteName: "Polish Footballers Abroad",
     images: [
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Polish Footballers Abroad — Statystyki piłkarzy za granicą",
     description:
-      "Śledź statystyki polskich piłkarzy grających za granicą. Sprawdzaj minuty, bramki, asysty i formę — wszystkie dane w jednym miejscu.",
+      "Koniec z szukaniem. Śledź statystyki polskich piłkarzy za granicą — minuty, bramki, asysty i formę w jednym miejscu.",
     images: ["/images/og-image-v2.png"],
   },
 };

@@ -7,14 +7,18 @@ export default function Hero() {
       </div>
 
       <h1 className="text-[48px] font-extrabold leading-[1.1] mb-2 max-w-[700px] max-md:text-[32px] max-sm:text-[28px]">
-        Śledź polskich piłkarzy{" "}
-        <span className="text-accent">za granicą</span>
+        Koniec z szukaniem
       </h1>
 
+      <p className="text-[48px] font-extrabold leading-[1.1] max-w-[700px] max-md:text-[32px] max-sm:text-[28px]">
+        Ponad 50 polskich piłkarzy{" "}
+        <span className="text-accent">za granicą</span> — w jednym miejscu
+      </p>
+
       <p className="text-base text-text-secondary max-w-[600px] mx-auto mt-4 mb-8 leading-relaxed transition-[color] duration-300">
-        Wszystkie najważniejsze informacje dostajesz w jednym miejscu. W kilka
-        sekund porównasz oraz sprawdzisz minuty, formę, występy, bramki i asysty polskich
-        piłkarzy grających za granicą — bez chaosu i bez straty czasu.
+        Masz dość otwierania dziesiątek zakładek o polskich piłkarzach za granicą?
+        W jednej aplikacji masz minuty, bramki, asysty i formę — aktualizowane na bieżąco.
+        Porównasz Polaków w kilka sekund.
       </p>
 
       <div className="flex gap-3 mb-12 max-md:flex-col max-md:items-center">
