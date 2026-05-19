@@ -21,7 +21,7 @@ const faqs = [
   {
     question: "Gdzie mogę śledzić polskich piłkarzy?",
     answer:
-      "Śledzimy polskich piłkarzy we wszystkich głównych ligach europejskich — Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal i innych. Zasięg zależy od tego, gdzie akurat grają Polacy.",
+      "We wszystkich topowych ligach europejskich — Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Primeira Liga — oraz wybranych ligach spoza Europy. Zasięg zależy od tego, którzy Polacy znajdują się w naszej bazie danych.",
   },
   {
     question: "Czy mogę się wypisać z listy?",
