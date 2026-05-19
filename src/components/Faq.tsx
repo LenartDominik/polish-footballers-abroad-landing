@@ -6,7 +6,7 @@ const faqs = [
   {
     question: "Czy to jest płatne?",
     answer:
-      "Na start wszystko za darmo. Osoby zapisane na listę otrzymają 14 dni pełnego dostępu premium — bez żadnych opłat. Po tym okresie część funkcji pozostanie darmowa, a część będzie wymagała subskrypcji premium.",
+      "Wszystkie osoby zapisane na listę otrzymają 14 dni pełnego dostępu premium — bez żadnych opłat. Po tym okresie część funkcji pozostanie darmowa, a część będzie wymagała subskrypcji premium.",
   },
   {
     question: "Co będzie darmowe, a co premium?",
@@ -14,12 +14,12 @@ const faqs = [
       "Wyszukiwarka i statystyki gracza pozostaną darmowe. W planie premium znajdą się: porównywarka graczy, średnie pozycje na boisku i mecze na żywo. Model subskrypcji premium wprowadzimy później — osoby zapisane na listę otrzymają najlepsze warunki.",
   },
   {
-    question: "Skąd bierzecie dane?",
+    question: "Skąd pochodzą dane?",
     answer:
       "Dane pochodzą z publicznie dostępnych źródeł statystycznych i są aktualizowane na bieżąco.",
   },
   {
-    question: "Jakie ligi są objęte?",
+    question: "Gdzie mogę śledzić polskich piłkarzy?",
     answer:
       "Śledzimy polskich piłkarzy we wszystkich głównych ligach europejskich — Premier League, La Liga, Serie A, Bundesliga, Ligue 1, Eredivisie, Liga Portugal i innych. Zasięg zależy od tego, gdzie akurat grają Polacy.",
   },

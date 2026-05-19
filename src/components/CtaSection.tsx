@@ -46,7 +46,7 @@ export default function CtaSection() {
       className="py-20 px-6 text-center bg-cta-bg relative"
     >
       <h2 className="text-[32px] font-bold mb-3 text-white">
-        To dla Ciebie, jeśli śledzisz polskich piłkarzy
+        Idealne narzędzie dla pasjonatów piłki nożnej i dziennikarzy
       </h2>
       <p className="text-white text-base max-w-[500px] mx-auto mb-8 leading-relaxed">
         Zostaw email — powiadomimy Cię, gdy ruszymy. Zapisani dostaną 14 dni premium za darmo.
