@@ -17,7 +17,7 @@ export default function Hero() {
 
       <p className="text-base text-text-secondary max-w-[600px] mx-auto mt-4 mb-8 leading-relaxed transition-[color] duration-300">
         Masz dość otwierania dziesiątek zakładek o polskich piłkarzach za granicą? Minuty, bramki, asysty, kartki i oceny — wszystko w jednej aplikacji, aktualizowane na bieżąco.
-        <br />▎ Porównasz Polaków w kilka sekund.
+        <br />Porównasz Polaków w kilka sekund.
       </p>
 
       <div className="flex gap-3 mb-12 max-md:flex-col max-md:items-center">
