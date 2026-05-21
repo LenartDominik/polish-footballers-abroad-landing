@@ -30,7 +30,7 @@ export default function Footer() {
           Regulamin
         </a>
         <a
-          href="mailto:kontakt@polishfootballersabroad.pl"
+          href="mailto:polishfootballersabroad@gmail.com"
           className="text-text-muted no-underline text-[13px] hover:text-accent transition-colors duration-300"
         >
           Kontakt
